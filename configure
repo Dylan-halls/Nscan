@@ -1,0 +1,4 @@
+#! /bin/bash
+eval gcc nscan.c -o nscan
+eval mv nscan /usr/bin
+echo 'Installed'
